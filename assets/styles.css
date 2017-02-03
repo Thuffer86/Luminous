@@ -6,7 +6,7 @@ html {
 
 body {
   margin: 0;
-  background-color: #f4f7fb;
+  background-color: #;
     line-height: 1.6;
 }
 
@@ -291,7 +291,7 @@ textarea {
 }
 
 .header__infoContainer h1 {
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'rubik', sans-serif;
     color: #fff;
     padding-top: 5px;
@@ -301,7 +301,7 @@ textarea {
 }
 
 .header__container h2 {
-    font-size: 12px;
+    font-size: 14px;
     color: #fff;
     opacity: .85;
     font-family: 'open sans', sans-serif;
@@ -356,7 +356,7 @@ textarea {
 }
 
 .container {
-    background-color: #f4f7fb;
+    background-color: #f7fafd;
 }
 
 .container h1 {
@@ -384,7 +384,7 @@ textarea {
 }
 
 .work__container {
-    background-color: #f7f7f7;
+    background-color: #fff;
     border-top: solid 1px #cecece;
     border-bottom: solid 1px #cecece;
     padding: 40px 10%;
