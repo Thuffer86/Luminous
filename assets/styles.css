@@ -603,7 +603,9 @@ textarea {
     overflow-y: auto;
 }
 
-    
+    .header__container  {
+        overflow-y: hidden;
+    }
     
     .header__infoContainer h1 {
         font-size: 24px;  
