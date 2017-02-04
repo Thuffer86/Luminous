@@ -214,7 +214,7 @@ textarea {
   font-family: 'rubik', sans-serif;
   width: 100%;
   height: 100vh;
-  background-color: #f56151;
+  background-color: #ea672d;
   position: relative;
   left: -100vw;
   box-shadow:0px 1px 1px rgba(0,0,0,0.15);
@@ -277,7 +277,7 @@ textarea {
 .header__container {
     width: 100%;
     height: 500px;
-    background: #18212d;
+    background: #172242;
 }
 
 .header__infoContainer {
@@ -316,11 +316,10 @@ textarea {
     border-radius: 50%;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
-    background:url(images/portfolio.jpg) center center;
+    background:url(images/profile.png) center center;
     background-repeat: no-repeat;
     background-size: 103%;
-    border: solid 4px #f56151;
-    box-shadow: 0px 0px 16px 5px rgba(245, 97, 81, 0.5);
+    border: solid 5px #ea672d;
 }
 
 .social__container {
@@ -334,7 +333,7 @@ textarea {
 }
 
 .icon {
-  fill: rgba(255,255,255, .6);
+  fill: rgba(255,255,255, .8);
   height: auto;
   width: 32px;
   border-radius: 50%;
@@ -345,7 +344,7 @@ textarea {
 }
 
 .icon:hover {
-  background-color: rgb(245,97,81);
+  background-color: rgb(46, 214, 175);
   cursor: pointer;
   transform: scale(1.05);
 }
@@ -361,20 +360,20 @@ textarea {
 
 .container h1 {
     font-size: 24px;
-    color: #f56151;
+    color: #ea672d;
     font-weight: 500;
     font-family: 'rubik', sans-serif;
 }
 
 .container h2 {
     font-size: 14px;
-    color: #18212d;
+    color: #172242;
     line-height: 1.6;
 }
 
 .container p {
     font-size: 14px;
-    color: #18212d;
+    color: #172242;
     opacity: .85;
     line-height: 1.6;
 }
@@ -429,7 +428,7 @@ textarea {
 	padding: 0.6em 1.2em;
     border-radius: 15px;
 	display: inline-block;
-	background-color: #f56151;
+	background-color: #ea672d;
 }
 
 .tag__container {
@@ -510,7 +509,7 @@ textarea {
     background-color: transparent;
     color: #374561;
     font-size: 1em;
-    border: 1px solid #18212d;
+    border: 1px solid #172242;
     -webkit-appearance: none;
 }
 
@@ -522,7 +521,7 @@ input[type=submit],
 textarea[type=submit] {
     color: #fff;
     border: none;
-    background-color: #f56151;
+    background-color: #ea672d;
     padding: .8em 1.2em;
     width: auto;
     font-size: 15px;
@@ -603,7 +602,7 @@ textarea {
     
     .header__infoContainer h2 {
         font-size: 16px;
-        max-width: 360px;
+        max-width: 310px;
     }
     
     .portfolio__img {
@@ -693,7 +692,7 @@ textarea {
         bottom: 0px;
         width: 100%;
         height: 70px;
-        background-color: #18212d;
+        background-color: #172242;
     }
     
 }
