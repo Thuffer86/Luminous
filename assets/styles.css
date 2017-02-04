@@ -160,7 +160,7 @@ textarea {
   position: absolute;
   height: 4px;
   width: 100%;
-  background:  #FFF;
+  background:  #f7fafd;
   border-radius: 9px;
   opacity: 1;
   left: 0;
@@ -254,7 +254,7 @@ textarea {
 
 .menu__container li a {
     text-decoration: none;
-    color: #fff;
+    color: #f7fafd;
   font-family: 'open sans', san-serif;
   font-size: 22px;
   font-weight: 600;
@@ -268,7 +268,7 @@ textarea {
 }
 
 .menu__container li a:hover {
-  color: #fff;
+  color: #f7fafd;
 }
 
 /************************/
@@ -293,7 +293,7 @@ textarea {
 .header__infoContainer h1 {
     font-size: 20px;
     font-family: 'rubik', sans-serif;
-    color: #fff;
+    color: #f7fafd;
     padding-top: 5px;
     font-weight: 500;
     max-width: 230px;
@@ -302,7 +302,7 @@ textarea {
 
 .header__container h2 {
     font-size: 14px;
-    color: #fff;
+    color: #f7fafd;
     opacity: .85;
     font-family: 'open sans', sans-serif;
     font-weight: 400;
@@ -344,7 +344,7 @@ textarea {
 }
 
 .icon:hover {
-  background-color: rgb(46, 214, 175);
+  background-color: rgb(234,103,45);
   cursor: pointer;
   transform: scale(1.05);
 }
@@ -408,7 +408,7 @@ textarea {
   width: 100%;
   position: relative;
   margin-bottom: 30px;
-  color: #374561;
+  color: #172242;
   text-decoration: none;
   transition: .35s;
 }
@@ -421,7 +421,7 @@ textarea {
 
 .work__link h6 {
 	font-family: 'montserrat', san-serif;
-	color: #fff;
+	color: #f7fafd;
     font-size: .7em;
     margin: 0 7px 5px 0;
     font-weight: 400;
@@ -467,7 +467,7 @@ textarea {
 
 .work__link .work-title {
   padding: 5% 0 0 0;
-  color: #374561;
+  color: #172242;
   width: 100%;
 }
 
@@ -507,7 +507,7 @@ textarea {
     margin: 8px 0;
     padding: 10px 15px;
     background-color: transparent;
-    color: #374561;
+    color: #172242;
     font-size: 1em;
     border: 1px solid #172242;
     -webkit-appearance: none;
@@ -519,7 +519,7 @@ input[type=submit] {
 
 input[type=submit],
 textarea[type=submit] {
-    color: #fff;
+    color: #f7fafd;
     border: none;
     background-color: #ea672d;
     padding: .8em 1.2em;
@@ -559,7 +559,7 @@ textarea::placeholder {
 input.error,
 textarea.error {
     background: #AD4747;
-    color: #ffffff;
+    color: #f7fafd;
 }
 
 input.error::-webkit-input-placeholder,
@@ -685,6 +685,7 @@ textarea {
         padding: 0;
         float: right;
         overflow: auto;
+        background-color: #f7fafd;
     }
     
         footer {
