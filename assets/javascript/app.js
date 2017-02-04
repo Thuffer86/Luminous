@@ -15,6 +15,7 @@ $(function() {
         $('#nav-icon').toggleClass('open');
         $("#menu").toggleClass('active');
         $('.container').removeClass('activePage');
+        $('body').removeClass('noScroll');
         target.toggleClass('activePage');
         return false;
       }
