@@ -285,19 +285,20 @@ textarea {
     text-align: left;
     margin: 0 auto;
     position: relative;
-    top: 50%;
+    top: 47.5%;
     transform: translateY(-50%);
-    padding: 1em 0em;
+    text-align: center;
 }
 
 .header__infoContainer h1 {
     font-size: 24px;
     font-family: 'rubik', sans-serif;
     color: #f7fafd;
-    padding-top: 5px;
+    padding-top: 15px;
     font-weight: 500;
     max-width: 230px;
-    line-height: 1.4;
+    line-height: 1.6;
+    margin: 0 auto;
 }
 
 .header__container h2 {
@@ -307,13 +308,14 @@ textarea {
     font-family: 'open sans', sans-serif;
     font-weight: 400;
     max-width: 250px;
-    margin-top: -10px;
+    margin: 0px auto 10px auto;
 }
 
 .portfolio__img {
     display: block;
-    height: 145px;
-    width: 145px;
+    height: 160px;
+    width: 160px;
+    margin: 0 auto;
     border-radius: 50%;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
@@ -328,7 +330,7 @@ textarea {
   flex-wrap: wrap;
   align-items: center;
   align-content: center;
-  justify-content: flex-start;
+  justify-content: center;
   height: 60px;
 
 }
