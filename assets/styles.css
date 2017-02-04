@@ -291,7 +291,7 @@ textarea {
 }
 
 .header__infoContainer h1 {
-    font-size: 20px;
+    font-size: 24px;
     font-family: 'rubik', sans-serif;
     color: #f7fafd;
     padding-top: 5px;
@@ -301,18 +301,19 @@ textarea {
 }
 
 .header__container h2 {
-    font-size: 14px;
+    font-size: 15px;
     color: #f7fafd;
     opacity: .85;
     font-family: 'open sans', sans-serif;
     font-weight: 400;
     max-width: 250px;
+    margin-top: -10px;
 }
 
 .portfolio__img {
     display: block;
-    height: 130px;
-    width: 130px;
+    height: 145px;
+    width: 145px;
     border-radius: 50%;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
