@@ -26,7 +26,7 @@ if ($(window).width() < 768) {
         return false;
       }
     }
-  });
+  }); 
 });
 } else {
 $(function() {
