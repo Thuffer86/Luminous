@@ -634,7 +634,16 @@ textarea.error::placeholder {
 }
 
 #ipad {
+    background-image: url(images/IpadInterior.png);
     height: 300px !important;
+}
+
+#laptop {
+    background-image: url(images/LaptopInterior.png);
+}
+
+#iphone {
+    background-image: url(images/PhoneInterior.png);
 }
 
 @media (min-width: 768px) {
