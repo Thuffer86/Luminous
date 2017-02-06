@@ -599,6 +599,44 @@ textarea.error::placeholder {
     height: 240px;
 }
 
+.back {
+    width: 90px;
+    height: 45px;
+    background-color: #172242;
+    margin: 5% 0 0 10%;
+}
+
+.back a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    line-height: 45px;
+    text-align: center;
+    font-family: 'montserrat', sans-serif;
+}
+
+.project__summary {
+    padding: 5% 0;
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.project__img {
+  margin-top: 20px;
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;  
+}
+
+#ipad {
+    height: 300px !important;
+}
+
 @media (min-width: 768px) {
     
     .icon {
@@ -741,5 +779,12 @@ textarea.error::placeholder {
         height: 220px;
     }
     
+        .header__container  {
+        width: 25%;
+    }
+    
+    .main__content{
+        width: 75%;
+    }
     
 }
