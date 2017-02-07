@@ -618,7 +618,7 @@ textarea.error::placeholder {
 .project__summary {
     padding: 5% 0;
     text-align: center;
-    width: 80%;
+    width: 95%;
     margin: 0 auto;
 }
 
@@ -628,18 +628,18 @@ textarea.error::placeholder {
 }
 
 .project__img {
-  margin-top: 20px;
+  margin-top: 0px;
   position: relative;
-  height: 240px;
+  width: 100%;
+  height: 260px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  background-blend-mode: overlay;  
+  background-position: center center;
 }
 
 #Byronipad {
     background-image: url(images/IpadInterior.png);
-    height: 300px;
+    height: 400px;
 }
 
 #Byronlaptop {
@@ -650,9 +650,12 @@ textarea.error::placeholder {
     background-image: url(images/PhoneInterior.png);
 }
 
+
+
+
 #Weatheripad {
     background-image: url(images/WeatherIpad.png);
-    height: 300px;
+    height: 400px;
 }
 
 #Weatherlaptop {
@@ -663,6 +666,62 @@ textarea.error::placeholder {
     background-image: url(images/WeatherIphone.png);
 }
 
+
+
+#gpslaptop {
+    background-image: url(images/Loc8rLaptop.png);
+}
+
+#gpsiphone {
+    background-image: url(images/Loc8rIphone.png);
+}
+
+#gpsipad {
+    background-image: url(images/Loc8rIpad.png);
+    height: 400px;
+
+}
+
+
+
+
+#colorlaptop {
+    background-image: url(images/ColorLaptop.png);
+}
+
+#coloriphone {
+    background-image: url(images/ColorIphone.png);
+}
+
+#coloripad {
+    background-image: url(images/ColorIpad.png);
+    height: 400px;
+}
+
+
+
+#emaillaptop {
+    background-image: url(images/EmailLaptop.png);
+}
+
+#emailiphone {
+    background-image: url(images/EmailIphone.png);
+}
+
+#emailipad {
+    background-image: url(images/EmailIpad.png);
+    height: 400px;
+}
+
+
+
+
+
+@media (min-width: 374px) {
+    .project__img {
+        height: 260px;
+    }
+}
 
 @media (min-width: 768px) {
     
