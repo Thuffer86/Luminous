@@ -617,34 +617,52 @@ textarea.error::placeholder {
 
 .project__summary {
     padding: 5% 0;
-    text-align: left;
+    text-align: center;
     width: 80%;
     margin: 0 auto;
+}
+
+.project__summary {
+    display: block !important;
+    opacity: 1!important;
 }
 
 .project__img {
   margin-top: 20px;
   position: relative;
-  height: 200px;
-  overflow: hidden;
+  height: 240px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-blend-mode: overlay;  
 }
 
-#ipad {
+#Byronipad {
     background-image: url(images/IpadInterior.png);
-    height: 300px !important;
+    height: 300px;
 }
 
-#laptop {
+#Byronlaptop {
     background-image: url(images/LaptopInterior.png);
 }
 
-#iphone {
+#Byroniphone {
     background-image: url(images/PhoneInterior.png);
 }
+
+#Weatheripad {
+    background-image: url(images/WeatherIpad.png);
+    height: 300px;
+}
+
+#Weatherlaptop {
+    background-image: url(images/WeatherLaptop.png);
+}
+
+#Weatheriphone {
+    background-image: url(images/WeatherIphone.png);
+}
+
 
 @media (min-width: 768px) {
     
@@ -696,6 +714,13 @@ textarea.error::placeholder {
         margin: 0 auto;
         display: none;
         opacity: 0;
+    }
+    
+    .project__summary {
+        width: 100%;
+    }
+    
+    .project__img {
     }
     
 
